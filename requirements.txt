@@ -1,0 +1,10 @@
+torch
+torchmetrics
+joblib
+scikit-learn
+tqdm
+colorama
+pandas
+gymnasium
+gymnasium[classic-control]
+optuna
