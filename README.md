@@ -3,7 +3,7 @@ This repository contains common methods for encoding and generating spikes.
 
 # Installation
 To install this repository as a package use
-> pip install git+LINK_TO_REPOSITORY
+> pip install git+https://github.com/Alex-Vasilache/Spike-Encoding.git
 
 **NOTE** This will also install torch and torchmetrics
 
