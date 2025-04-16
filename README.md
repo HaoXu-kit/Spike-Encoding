@@ -376,8 +376,7 @@ In order to ensure consistent formatting, please install the "black formatter" e
 
 [^1]: B. Schrauwen and J. Van Campenhout, “Bsa, a fast and accurate
 spike train encoding scheme,” in Proceedings of the International Joint
-Conference on Neural Networks, 2003., vol. 4. IEEE, 2003, pp. 2825–
-2830.
+Conference on Neural Networks, 2003., vol. 4. IEEE, 2003, pp. 2825–2830.
 [^2]: N. Kasabov, N. M. Scott, E. Tu, S. Marks, N. Sengupta, E. Capecci,
 M. Othman, M. G. Doborjeh, N. Murli, R. Hartono et al., “Evolving
 spatio-temporal data machines based on the neucube neuromorphic
@@ -392,3 +391,19 @@ decoding of time-dependent analog data,” IEEE Transactions on Neural
 Networks and Learning Systems, vol. 31, no. 10, pp. 3920–3931, 2019.
 [^5]: The gymnasium encoder is a custom encoder specifically tailored for gymnasium environments.
 [^6]: The bin encoder is based on gaussian receptive fields and splits each input into multiple spike trains, as determined by the number of bins.
+
+# Citation
+
+If you use this repository in your research, please cite the following paper:
+
+```bibtex
+@misc{vasilache2025pytorchcompatiblespikeencodingframework,
+      title={A PyTorch-Compatible Spike Encoding Framework for Energy-Efficient Neuromorphic Applications}, 
+      author={Alexandru Vasilache and Jona Scholz and Vincent Schilling and Sven Nitzsche and Florian Kaelber and Johannes Korsch and Juergen Becker},
+      year={2025},
+      eprint={2504.11026},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2504.11026}, 
+}
+```
