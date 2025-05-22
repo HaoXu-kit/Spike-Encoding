@@ -365,6 +365,16 @@ The first 3 spiketrains correspond to the first feature and the last 3 to the se
 
 
 # How to contribute
+We are grateful for the support from our organizations and welcome contributions from the community! We hope this list of contributing organizations will grow much further as the project develops.
+
+<p align="center">
+  <img src="img/fzi_logo.png" alt="FZI Logo" height="150"/>
+  <img src="img/kit_logo.png" alt="ITIV Logo" height="150"/>
+</p>
+
+If you're interested in improving this project, please feel free to clone the repository, make your changes, and submit a pull request. Make sure to tell us your organisation if you want it added to the list. Check out our guidelines on testing and formatting in the sections below or browse the Issues tab. We look forward to your contributions!
+
+
 ## Testing
 If you want to work on this repository, please note that we are using unittests to test our components. You can run our unittests in vs code by going to the testing tab and running the configuration. Select unittests as the testing framework and the root directory as the directory to run from. The result should look like this 
 
@@ -372,6 +382,23 @@ If you want to work on this repository, please note that we are using unittests 
 
 ## Formatting
 In order to ensure consistent formatting, please install the "black formatter" extension. Follow the instructions on the extension page to ensure it is active. Furthermore, please enable "Format on Save" if you are using VS Code, or the equivalent if you are using a different IDE. 
+
+
+# Citation
+
+If you use this repository in your research, please cite the following paper:
+
+```bibtex
+@misc{vasilache2025pytorchcompatiblespikeencodingframework,
+      title={A PyTorch-Compatible Spike Encoding Framework for Energy-Efficient Neuromorphic Applications}, 
+      author={Alexandru Vasilache and Jona Scholz and Vincent Schilling and Sven Nitzsche and Florian Kaelber and Johannes Korsch and Juergen Becker},
+      year={2025},
+      eprint={2504.11026},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2504.11026}, 
+}
+```
 
 
 [^1]: B. Schrauwen and J. Van Campenhout, “Bsa, a fast and accurate
@@ -391,19 +418,3 @@ decoding of time-dependent analog data,” IEEE Transactions on Neural
 Networks and Learning Systems, vol. 31, no. 10, pp. 3920–3931, 2019.
 [^5]: The gymnasium encoder is a custom encoder specifically tailored for gymnasium environments.
 [^6]: The bin encoder is based on gaussian receptive fields and splits each input into multiple spike trains, as determined by the number of bins.
-
-# Citation
-
-If you use this repository in your research, please cite the following paper:
-
-```bibtex
-@misc{vasilache2025pytorchcompatiblespikeencodingframework,
-      title={A PyTorch-Compatible Spike Encoding Framework for Energy-Efficient Neuromorphic Applications}, 
-      author={Alexandru Vasilache and Jona Scholz and Vincent Schilling and Sven Nitzsche and Florian Kaelber and Johannes Korsch and Juergen Becker},
-      year={2025},
-      eprint={2504.11026},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2504.11026}, 
-}
-```
