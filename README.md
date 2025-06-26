@@ -383,6 +383,12 @@ If you want to work on this repository, please note that we are using unittests 
 ## Formatting
 In order to ensure consistent formatting, please install the "black formatter" extension. Follow the instructions on the extension page to ensure it is active. Furthermore, please enable "Format on Save" if you are using VS Code, or the equivalent if you are using a different IDE. 
 
+# License and Copyright
+
+Copyright © 2025 Alexandru Vasilache
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 
 # Citation
 
